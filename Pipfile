@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+python-docx = "*"
+pymupdf = "*"
+gradio-client = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+drfpasswordless = "*"
+django-cors-headers = "*"
+django = "*"
+fastapi = {extras = ["all"], version = "*"}
+sqlalchemy = "*"
+aiosqlite = "*"
+httpx = "*"
+python-multipart = "*"
+alembic = {extras = ["asyncio"], version = "*"}
+asyncpg = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.10"
